@@ -19,62 +19,17 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 ---
 
-
 # Table of Contents
 
 - [Vulnerability Management Policy Draft Creation](#vulnerability-management-policy-draft-creation)
-- [Mock Meeting: Policy Buy-In (Stakeholders)](#step-2-mock-meeting-policy-buy-in-stakeholders)
-- [Policy Finalization and Senior Leadership Sign-Off](#step-3-policy-finalization-and-senior-leadership-sign-off)
-- [Mock Meeting: Initial Scan Permission (Server Team)](#step-4-mock-meeting-initial-scan-permission-server-team)
 - [Initial Scan of Server Team Assets](#step-5-initial-scan-of-server-team-assets)
 - [Vulnerability Assessment and Prioritization](#step-6-vulnerability-assessment-and-prioritization)
 - [Distributing Remediations to Remediation Teams](#step-7-distributing-remediations-to-remediation-teams)
-- [Mock Meeting: Post-Initial Discovery Scan (Server Team)](#step-8-mock-meeting-post-initial-discovery-scan-server-team)
-- [Mock CAB Meeting: Implementing Remediations](#step-9-mock-cab-meeting-implementing-remediations)
 - [Remediation Round 1: Outdated Wireshark Removal](#remediation-round-1-outdated-wireshark-removal)
 - [Remediation Round 2: Insecure Protocols & Ciphers](#remediation-round-2-insecure-protocols--ciphers)
 - [Remediation Round 3: Guest Account Group Membership](#remediation-round-3-guest-account-group-membership)
 - [Remediation Round 4: Windows OS Updates](#remediation-round-4-windows-os-updates)
 - [First Cycle Remediation Effort Summary](#first-cycle-remediation-effort-summary)
-
----
-
-### Vulnerability Management Policy Draft Creation
-
-This phase focuses on drafting a Vulnerability Management Policy as a starting point for stakeholder engagement. The initial draft outlines scope, responsibilities, and remediation timelines, and may be adjusted based on feedback from relevant departments to ensure practical implementation before final approval by upper management.  
-[Draft Policy](https://docs.google.com/document/d/1CLSWm1_9JL1oUqgyNNwtPXW6FzXJ7ddVnSAUQTyqC8I/edit?usp=drive_link)
-
----
-
-### Step 2) Mock Meeting: Policy Buy-In (Stakeholders)
-
-In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
-
-<a href='https://youtu.be/8g6uafc6LjE' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/549d21f4-26c2-412d-9117-d7b6835aedbf"></a>
-
-[YouTube Video: Stakeholder Policy Buy-In Meeting](https://youtu.be/8g6uafc6LjE)
-
----
-
-### Step 3) Policy Finalization and Senior Leadership Sign-Off
-
-After gathering feedback from the server team, the policy is revised, addressing aggressive remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
-[Finalized Policy](https://docs.google.com/document/d/1rvueLX_71pOR8ldN9zVW9r_zLzDQxVsnSUtNar8ftdg/edit?usp=drive_link)
-<div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/9afcdbc1-0493-4af2-9287-1cb9b8f59b40" alt="image" width="400">
-</div>
-
----
-
-### Step 4) Mock Meeting: Initial Scan Permission (Server Team)
-
-The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
-
-<a href='https://youtu.be/lg068WA4SKM' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/31fe8d0f-636b-475b-8d5a-a2795c183f86"></a>
-
-[YouTube Video: Initial Discovery Scan](https://youtu.be/lg068WA4SKM)
-
----
 
 ### Step 5) Initial Scan of Server Team Assets
 
@@ -107,26 +62,6 @@ The server team received remediation scripts and scan reports to address key vul
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/bbf9478f-e1d1-4898-846e-b510ec8c6f72">
 
 [Remediation Email](https://github.com/joshmadakor1/lognpacific-public/blob/main/misc/remediation-email.md)
-
----
-
-### Step 8) Mock Meeting: Post-Initial Discovery Scan (Server Team)
-
-The server team reviewed vulnerability scan results, identifying outdated software, insecure accounts, and deprecated protocols. The remediation packages were prepared for submission to the Change Control Board (CAB). 
-
-<a href="https://youtu.be/0tjjFewxSNw" target="_"><img width="600" src="https://github.com/user-attachments/assets/03027c66-5f7c-42d0-b6dd-09d053c040b1"/></a>
-
-[Meeting Video](https://youtu.be/0tjjFewxSNw)
-
----
-
-### Step 9) Mock CAB Meeting: Implementing Remediations
-
-The Change Control Board (CAB) reviewed and approved the plan to remove insecure protocols and cipher suites. The plan included a rollback script and a tiered deployment approach.  
-
-<a href="https://youtu.be/zOFPkTa9kY8" target="_"><img width="600" src="https://github.com/user-attachments/assets/07164e63-fbce-471a-b469-29a6d41b7bb8"/></a>
-
-[Meeting Video](https://youtu.be/zOFPkTa9kY8)
 
 ---
 ### Step 10 ) Remediation Effort
