@@ -1,4 +1,4 @@
-# Official [Cyber Range](http://joshmadakor.tech/cyber-range) Project
+
 
 # Vulnerability Management Program Implementation
 
