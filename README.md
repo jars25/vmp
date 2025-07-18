@@ -1,2 +1,1 @@
-# vmp
-Vulnerability-Management-Program
+# Vulnerability-Management-Program
