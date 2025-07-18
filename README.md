@@ -31,7 +31,7 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 - [Remediation Round 4: Windows OS Updates](#remediation-round-4-windows-os-updates)
 - [First Cycle Remediation Effort Summary](#first-cycle-remediation-effort-summary)
 
-### Step 5) Initial Scan of Server Team Assets
+### Step 1) Initial Scan of Server Team Assets
 
 In this phase, an insecure Windows Server is provisioned to simulate the server team's environment. After creating vulnerabilities, an authenticated scan is performed, and the results are exported for future remediation steps.  
 
@@ -44,7 +44,7 @@ In this phase, an insecure Windows Server is provisioned to simulate the server 
 
 ---
 
-### Step 6) Vulnerability Assessment and Prioritization
+### Step 2) Vulnerability Assessment and Prioritization
 
 We assessed vulnerabilities and established a remediation prioritization strategy based on ease of remediation and impact. The following priorities were set:
 
@@ -55,7 +55,7 @@ We assessed vulnerabilities and established a remediation prioritization strateg
 
 ---
 
-### Step 7) Distributing Remediations to Remediation Teams
+### Step 3) Distributing Remediations to Remediation Teams
 
 The server team received remediation scripts and scan reports to address key vulnerabilities. This streamlined their efforts and prepared them for a follow-up review.  
 
@@ -64,7 +64,7 @@ The server team received remediation scripts and scan reports to address key vul
 [Remediation Email](https://github.com/joshmadakor1/lognpacific-public/blob/main/misc/remediation-email.md)
 
 ---
-### Step 10 ) Remediation Effort
+### Step 4) Remediation Effort
 
 #### Remediation Round 1: Outdated Wireshark Removal
 
