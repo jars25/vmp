@@ -34,10 +34,6 @@ In this phase, an insecure Windows Server is provisioned to simulate the server 
 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/937cccbd-36bb-4445-97b9-e915085cda81" style="border: 2px solid black;">
 
-[Scan 1 - Initial Scan](https://drive.google.com/file/d/1RBPVj_azKJMwmRZ8QILlb4hxIjQU3wQ7/view?usp=drive_link)
-
-
-
 
 ---
 
@@ -58,8 +54,6 @@ The server team received remediation scripts and scan reports to address key vul
 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/bbf9478f-e1d1-4898-846e-b510ec8c6f72">
 
-[Remediation Email](https://github.com/joshmadakor1/lognpacific-public/blob/main/misc/remediation-email.md)
-
 ---
 ### Step 4) Remediation Effort
 
@@ -70,8 +64,6 @@ The server team used a PowerShell script to remove outdated Wireshark. A follow-
 
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/7b4f9ab2-d230-4458-ac0f-c0ff070ae79a">
 
-[Scan 2 - Third Party Software Removal](https://drive.google.com/file/d/1UiwPPTtuSZKk02hiMyXf31pXUIeC5EWt/view?usp=drive_link)
-
 
 #### Remediation Round 2: Insecure Protocols & Ciphers
 
@@ -81,8 +73,6 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/0e96120d-8ec9-4f76-8e42-79c752200010">
 
-[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1Qc6-ezQvwReCGUZNtnva0kCZo_-zW-Sm/view?usp=drive_link)
-
 
 #### Remediation Round 3: Guest Account Group Membership
 
@@ -91,16 +81,12 @@ The server team removed the guest account from the administrator group. A new sc
 
 <img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
 
-[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1jVgikjfrV1YjOcL3QRT_oUB0Y82w22V7/view?usp=drive_link)
-
 
 #### Remediation Round 4: Windows OS Updates
 
 Windows updates were re-enabled and applied until the system was fully up to date. A final scan verified the changes  
 
 <img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
-
-[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/1tmDjeHl5uiGitRwWy8kFRi33q-nGi1Zt/view?usp=drive_link)
 
 ---
 
@@ -109,8 +95,6 @@ Windows updates were re-enabled and applied until the system was fully up to dat
 The remediation process reduced total vulnerabilities by 80%, from 30 to 6. Critical vulnerabilities were resolved by the second scan (100%), and high vulnerabilities dropped by 90%. Mediums were reduced by 76%. In an actual production environment, asset criticality would further guide future remediation efforts.  
 
 <img width="1920" alt="image" src="https://github.com/user-attachments/assets/51f0aae8-7f36-4d90-b29f-5257e57155f9">
-
-[Remediation Data](https://docs.google.com/spreadsheets/d/1FTtFfZYmFsNLU6pm8nTzsKyKE-d2ftXzX_DPwcnFNfA/edit?gid=0#gid=0)
 
 ---
 
