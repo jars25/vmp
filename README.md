@@ -19,7 +19,6 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 # Table of Contents
 
-- [Vulnerability Management Policy Draft Creation](#vulnerability-management-policy-draft-creation)
 - [Initial Scan of Server Team Assets](#step-5-initial-scan-of-server-team-assets)
 - [Vulnerability Assessment and Prioritization](#step-6-vulnerability-assessment-and-prioritization)
 - [Distributing Remediations to Remediation Teams](#step-7-distributing-remediations-to-remediation-teams)
