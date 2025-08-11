@@ -21,7 +21,6 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 - [Initial Scan of Server Team Assets](#step-5-initial-scan-of-server-team-assets)
 - [Vulnerability Assessment and Prioritization](#step-6-vulnerability-assessment-and-prioritization)
-- [Distributing Remediations to Remediation Teams](#step-7-distributing-remediations-to-remediation-teams)
 - [Remediation Round 1: Outdated Wireshark Removal](#remediation-round-1-outdated-wireshark-removal)
 - [Remediation Round 2: Insecure Protocols & Ciphers](#remediation-round-2-insecure-protocols--ciphers)
 - [Remediation Round 3: Guest Account Group Membership](#remediation-round-3-guest-account-group-membership)
@@ -48,14 +47,7 @@ We assessed vulnerabilities and established a remediation prioritization strateg
 
 ---
 
-### Step 3) Distributing Remediations to Remediation Teams
-
-The server team received remediation scripts and scan reports to address key vulnerabilities. This streamlined their efforts and prepared them for a follow-up review.  
-
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/bbf9478f-e1d1-4898-846e-b510ec8c6f72">
-
----
-### Step 4) Remediation Effort
+### Step 3) Remediation Effort
 
 #### Remediation Round 1: Outdated Wireshark Removal
 
