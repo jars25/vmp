@@ -31,7 +31,8 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 In this phase, an insecure Windows Server is provisioned to simulate the server team's environment. After creating vulnerabilities, an authenticated scan is performed, and the results are exported for future remediation steps.  
 
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/937cccbd-36bb-4445-97b9-e915085cda81" style="border: 2px solid black;">
+<img width="693" height="947" alt="image" src="https://github.com/user-attachments/assets/17e1e0cd-0bb2-4157-bd0d-5604dffafaef" />
+
 
 
 ---
